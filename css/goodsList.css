@@ -1,0 +1,67 @@
+.header{
+  height: 80px;
+  background: #eee;
+  position: relative;
+}
+.header h1{
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+}
+.header a{
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  padding: 4px 10px;
+  font-size: 16px;
+  color: #666;
+  border: 1px solid #ccc;
+}
+.header a:hover{
+  border: 1px solid red;
+  color: red;
+}
+.wrap{
+  width: 1200px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+}
+.main{
+  margin-top: 30px;
+  width: 1300px;
+}
+.goods{
+  float: left;
+  width: 220px;
+  margin: 0 25px 25px 0;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+}
+.goods:hover{
+  border: 1px solid red;
+}
+.goods img{
+  width: 218px;
+  height: 218px;
+  display: block;
+}
+.goods p{
+  font-size: 18px;
+  color: red;
+  padding: 10px 4px;
+}
+.goods h3{
+  font-size: 14px;
+}
+.goods div{
+  font-size: 16px;
+  color: red;
+  padding: 4px 8px;
+  border: 1px solid #eee;
+  float: left;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.goods div:hover{
+  border: 1px solid red;
+}

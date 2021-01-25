@@ -1,0 +1,82 @@
+.header{
+  height: 80px;
+  background-color: #eee;
+}
+.header h1{
+  text-align: center;
+  line-height: 80px;
+}
+.head{
+  overflow: hidden;
+  background-color: #eee;
+  width: 900px;
+  margin: 30px auto 10px;
+  line-height: 40px;
+  padding-left: 30px;
+}
+.head input{
+  float: left;
+  margin-top: 15px;
+}
+.head span:nth-of-type(1){
+  float: left;
+}
+.head span:nth-of-type(2){
+  float: left;
+  margin-left: 70px;
+}
+.head span:nth-of-type(3){
+  float: left;
+  margin-left: 330px;
+}
+.head span:nth-of-type(4){
+  float: left;
+  margin-left: 90px;
+}
+.head span:nth-of-type(5){
+  float: left;
+  margin-left: 120px;
+}
+.list{
+  margin-top: 5px;
+  width: 900px;
+  margin: 0 auto;
+}
+.list li{
+  padding: 10px 15px;
+  background-color: lightcyan;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.list li input{
+  float: left;
+}
+.list li img{
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+.list li h3{
+  float: left;
+  width: 300px;
+  margin: 10px 0 0 15px;
+}
+.list li p{
+  float: left;
+  width: 100px;
+  text-align: center;
+  margin-left: 50px;
+}
+.list li span{
+  float: left;
+  width: 20px;
+  text-align: center;
+  margin-left: 60px;
+}
+.list li em{
+  float: left;
+  width: 50px;
+  text-align: center;
+  margin-left: 120px;
+  cursor: pointer;
+}
